@@ -1,0 +1,157 @@
+/* google fonts add */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* universal font familly */
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>ul {
+    display: flex;
+    gap: 44px;
+}
+
+nav>ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
+/* nav imidieat class style */
+.nav-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-title-style {
+    color: rgb(255, 84, 0);
+}
+
+.hero-logo {
+    width: 100px;
+    height: 100px;
+    /* margin-top: 220px; */
+}
+
+.home {
+    color: rgb(255, 84, 0);
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
+/* banner section styles start */
+.banner-section {
+    background-image:
+        linear-gradient(rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%),
+        url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 106px;
+}
+
+.banner-description {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 24px;
+}
+
+.find-section {
+    display: flex;
+    width: 800px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 48px auto;
+    padding: 16px;
+}
+
+.box {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-left: 24px;
+}
+
+.box-text {
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#tour-scarce {
+    border-radius: 8px;
+
+    background: rgb(255, 84, 0);
+}
+
+/* main section-style started */
+main {
+    width: 1170px;
+    margin: 100px auto;
+}
+
+.tours-container {
+    display: flex;
+    gap: 60px;
+}
+
+.tour-description h2 {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-description p,
+ul>li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    padding: 13px 35px;
+    color: #fff;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    margin-top: 46px;
+}
+.mauntain-image{
+    padding-top: 50px;
+}
+
+
+/* responsive style start */
+/* for mobile devices */
+@media screen and (max-width:576px) {
+
+    nav {
+        flex-direction: column;
+    }
+}
