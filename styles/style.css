@@ -158,7 +158,8 @@ ul>li {
     font-size: 40px;
     font-weight: 800;
 }
-.destination-info{
+
+.destination-info {
     margin-top: 24px;
     margin-bottom: 48px;
 }
@@ -196,6 +197,76 @@ ul>li {
     font-weight: 800;
 }
 
+
+/* why choose section styles */
+.margine {
+    margin-top: 200px;
+}
+
+.why-choose-us {
+    text-align: center;
+    /* width: 50%; */
+    padding: 0 150px;
+}
+
+.card-title {
+    color: rgb(19, 19, 24);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+}
+.card-description{
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.card-box-container {
+    display: flex;
+    gap: 24px;
+}
+
+.card-box {
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    padding: 32px;
+}
+
+.card-box-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    width: 573px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.card-box-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    width: 573px;
+    background: rgba(233, 68, 68, 0.05);
+    margin: 24px auto;
+    padding: 32px;
+}
+
+
+.card-box-title {
+    color: rgb(19, 19, 24);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-box-description {
+    line-height: 26px;
+}
 
 
 
