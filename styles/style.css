@@ -218,7 +218,8 @@ ul>li {
     margin-bottom: 2px;
     padding-bottom: 3px;
 }
-.card-description{
+
+.card-description {
     line-height: 26px;
     margin-bottom: 60px;
 }
@@ -268,6 +269,77 @@ ul>li {
     line-height: 26px;
 }
 
+
+/* stared newsletter section style */
+.subscribe-container {
+    display: flex;
+    gap: 24px;
+}
+
+.news-letter {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.news-title {
+    color: rgb(19, 19, 24);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.news-description {
+    line-height: 26px;
+}
+
+.information {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    gap: 10px;
+    width: 122px;
+    height: 20px;
+}
+
+/* footer styles started */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    padding: 30px;
+    
+}
+
+#footer-title {
+    text-align: center;
+}
+
+
+.footer-description{
+  text-align: center;
+  padding: 40px;
+}
+
+.icon-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon-container img {
+    width: 22px;
+    height: 23px;
+
+}
+
+
+.horizontal-brack-line {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    width: 872px;
+    margin: 0 auto;
+}
+.last{
+    text-align: center;
+}
 
 
 /* responsive style start */
